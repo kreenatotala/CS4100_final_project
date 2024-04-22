@@ -1,1 +1,5 @@
-# CS4100_final_project
+# License Plate Recognition
+## CS4100 Final Project
+### Kreena, Khushi, Prayusi, Aashvi
+
+In urban areas like Boston, where traffic congestion and parking management present daily challenges, an AI-powered license plate recognition tool offers a novel solution. Our project developed such a tool capable of parsing various environmental conditions to recognize license plate codes. The experimental setup involved two Convolutional Neural Networks (CNNs): the first to detect the license plate's location using bounding box regression, and the second to read the alphanumeric codes with labels extracted via easyOCR. Our findings indicate that the tool is capable of reliably identifying license plate codes, suggesting its potential application in urban planning and law enforcement. While effective, the tool's performance is subject to the variabilities presented by different lighting, weather conditions, and capture angles, which are common in a bustling cityscape. Future work will focus on enhancing the accuracy and robustness of the system by expanding the dataset and exploring advanced machine learning techniques. The ultimate goal is to refine the tool's precision to meet the high accuracy standards required for practical applications.
